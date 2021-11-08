@@ -62,9 +62,14 @@
 a {
   text-decoration: none;
   color: inherit;
+  transition: all 200ms ease-in-out;
 }
 
 a:hover {
   text-decoration: underline;
   color: inherit;
+}
+
+.bg-yellow {
+  background: #f6e4ad;
 }
